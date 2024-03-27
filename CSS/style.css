@@ -1,0 +1,245 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: cursive;
+}
+
+/* ------------------------------------------  Header  -------------------------------- */
+.nav-all{
+    width: 100%;
+    /* position: fixed; */
+    top: 0;
+    z-index: 1;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 15%;
+    color: rgb(255, 255, 255);
+}
+.navbar-brand:hover{
+    color: rgb(255, 255, 255);
+    transform: scale(1.2 , 1.2);
+}
+.nav-link{
+    color: white;
+    margin: auto;
+}
+.nav-item:hover .nav-link{
+    color: rgb(255, 193, 7);
+    transform: scale(1.2 , 1.2);
+}
+.icon1{
+    color: white;
+    font-size: 23px;
+    margin-right: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.icon2{
+    color: white;
+    font-size: 23px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.btw{
+    margin-left: 90px;
+}
+.icon1:hover , .icon2:hover{
+    color: rgb(255, 193, 7);
+    transform: scale(1.2 , 1.2);
+}
+.btn1-home{
+    background-color: rgb(255, 193, 7);
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.btn1-home a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn1-home:hover{
+    background-color:rgb(255, 193, 7, 0.9);
+    color: white;
+    transform: scale(1.07 , 1.07);
+}
+
+/* ------------------------------------------  MAIN  -------------------------------- */
+.img-home{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    /* position: absolute; */
+    
+}
+main .div-main{
+    width: 35%;
+    position: relative;
+    margin: 10% 0% 0% 60px;
+    color:rgb(255, 255, 255);
+}
+main .div-main-login{
+    width: 45%;
+    padding: 0.2%;
+    position: relative;
+    margin: 5% 0% 0% 50%;
+    color:rgb(255, 255, 255);
+    background-color: rgb(51, 51, 51, .9);
+}
+main .div-main-regis{
+    width: 45%;
+    padding: 0.2%;
+    position: relative;
+    margin: 5% 0% 0% 50%;
+    color:rgb(255, 255, 255);
+    background-color: rgb(51, 51, 51, .9);
+} 
+main .h-main{
+    font-size: 35px;
+    font-weight: bold;
+}
+main .h-main-l-r{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0px;
+}
+main .p-main{
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 7px;
+}
+main .btn1-main{
+    background-color: rgb(255, 193, 7);
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+main .btn1-main:hover{
+    background-color:rgb(255, 193, 7, 0.8);
+    color: white;
+    transform: scale(1.1 , 1.1);
+}
+main .btn1-main a{
+    text-decoration: none;
+    color: white;
+}
+main .p-main span{
+    color:rgb(255, 193, 7) ;
+    text-decoration: underline;
+}
+
+/* ------------------------------------------  Login and Register -------------------------------- */
+
+.div-in{
+    padding: 5px 20px;
+}
+.btn-in:hover{
+    background-color:rgb(255, 191, 0) ;
+}
+.p-log-reg{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* ------------------------------------------  SECTION ONE ABOUT  -------------------------------- */
+
+.h3-titel{
+    text-align: center;
+    text-transform: uppercase; 
+    font-size: 40px;
+}
+.h3-titel-sopping{
+    text-align: center;
+    text-transform: uppercase; 
+    font-size: 40px;
+    margin-top: 90px;
+}
+.div-titel{
+    width: 12%;
+    height: 4px;
+    margin:auto;
+}
+.card-img-top:hover{
+    transform: scale(1.1 , 1.1);
+}
+.stat_1{
+    font-size: 20px;
+    color:rgb(255, 191, 0);
+}
+.stat_2{
+    font-size: 20px;
+    color: aliceblue;
+}
+.span_price{
+    font-size: 22px;
+    font-weight: bold;
+    color: aliceblue;
+    margin-left: 55px;
+}
+.num_inc{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:rgb(255, 191, 0);
+    color: black;
+    text-align: center;
+    /* right: 28%; */
+    font-size: 12px;
+    font-weight: bold;
+}
+.card_products {
+    width:250px;
+    position: absolute;
+    transform: translate(-50px,15px);
+    top: 56px;
+    padding: 15px;
+    border: 1px solid rgb(255, 191, 0);
+    display: none;
+}
+.card_products a{
+   display: block;
+   margin: 4px 0;
+   padding: 4px;
+   border-radius: 20px;
+   background-color: rgb(255, 191, 0);
+   color: white;
+   text-align: center;
+   text-decoration: none;
+}
+.card_products a:hover{
+    background-color:rgb(255, 193, 7, 0.8);
+    transform: scale(1.06 , 1.06);
+}
+.card_products p {
+    display: block;
+    margin: 4px 0;
+    padding: 4px;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    text-align: center;
+}
+
+/* ------------------------------------------  FOOTER  -------------------------------- */
+
+.footer-link{
+    color: white;
+}
+.footer-link:hover{
+    color: rgb(255, 191, 0);
+    transform: scale(1.2 , 1.2);
+}

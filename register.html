@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="" />
+  <meta name="description" content="">
+
+  <link rel="StyleSheet" href="./CSS/all.css" />
+  <link rel="StyleSheet" href="./CSS/font-awesome.min.css" />
+  <link rel="StyleSheet" href="./CSS/bootstrap.min.css" />
+  <link rel="styleSheet" href="./CSS/style.css" />
+
+  <title>Register</title>
+</head>
+
+<body>
+  
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark nav-all">
+      <div class="container">
+        <a class="navbar-brand title-home fst-italic" href="./login.html">SHOP</a>
+
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 m-auto">
+            <li class="nav-item mx-auto">
+              <a class="nav-link active me-3 fs-5 m-auto" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link active me-3 fs-5" href="./register.html">About</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link active me-3 fs-5" href="./register.html">Shopping</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link active me-3 fs-5" href="./register.html">Team</a>
+            </li>
+
+            <div class="d-flex mx-auto">
+              <li><i class="fa-solid fa-magnifying-glass icon1 btw"></i></li>
+              <li><i class="fa-solid fa-user icon1"></i></li>
+              <li><i class="fa-solid fa-cart-plus icon1"></i></li>
+            
+              <button class="btn btn1-home fst-italic" type="submit"><a href="./login.html">Sign in</a></button>
+              <button class="btn btn1-home fst-italic" type="submit"><a href="./register.html">Sign up</a></button>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <img src="./image/login.jpg" class="img-fluid img-home" alt="image-home">
+
+    <div class="div-main-regis">
+        <h3 class="h-main-l-r ">Register</h3>
+
+        <form>
+          <div class="input-group mb-3 div-in">
+            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-user"></i></span>
+            <input type="text" class="form-control" placeholder="Enter The Username" aria-label="Username" aria-describedby="basic-addon1" id="username">
+          </div>
+              
+          <div class="input-group mb-3 div-in">
+            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-envelope"></i></span>
+            <input type="email" class="form-control" placeholder="Enter The Email" aria-label="Passages" aria-describedby="basic-addon1" id="email">
+          </div>
+
+          <div class="input-group mb-3 div-in">
+            <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-lock"></i></span>
+            <input type="password" class="form-control" placeholder="Enter The Passages" aria-label="Passages" aria-describedby="basic-addon1" id="password">
+          </div>
+
+          <div class="input-group mb-1 div-in">
+            <input type="submit" class="form-control btn-in fw-bold fst-italic" value="Sign Up" style="font-size: 19px;" id="sign_up" >
+          </div>
+          
+          <p class="p-log-reg">Have An Account <a href="./login.html" style="color: rgb(255, 191, 0) ; text-decoration: none;">Login</a></p>
+        </form>
+    </div>
+  </main>
+
+  
+  <script src="./JS/bootstrap.bundle.min.js"></script>
+  <script src="./JS/register.js"></script>
+</body>
+
+</html>

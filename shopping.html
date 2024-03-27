@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="" />
+  <meta name="description" content="">
+
+  <link rel="StyleSheet" href="./CSS/all.css" />
+  <link rel="StyleSheet" href="./CSS/font-awesome.min.css" />
+  <link rel="StyleSheet" href="./CSS/bootstrap.min.css" />
+  <link rel="styleSheet" href="./CSS/style.css" />
+
+  <title>Shopping</title>
+</head>
+
+<body>
+  
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark nav-all">
+      <div class="container-fluid">
+        <a class="navbar-brand title-home fst-italic ms-5" href="./login.html">SHOP</a>
+
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars"></i></span>
+        </button>
+
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0 m-auto">
+            <li class="nav-item mx-auto">
+              <a class="nav-link active me-3 fs-5 m-auto" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link active me-3 fs-5" href="./about.html">About</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link active me-3 fs-5" style="color: rgb(255, 193, 7);" href="./shopping.html">Shopping</a>
+            </li>
+            <li class="nav-item mx-auto">
+              <a class="nav-link active me-3 fs-5" href="#">Team</a>
+            </li>
+
+            <div class="d-flex mx-auto">
+                <li><i class="fa-solid fa-magnifying-glass icon1 btw"></i></li>
+                <li><i class="fa-solid fa-user icon1"></i></li>
+                
+                <li class="Shopping_card me-3"><i class="fa-solid fa-cart-plus icon2"></i>
+                  <span class="num_inc">0</span>
+                  <div class="card_products bg-dark">
+                    <div class="text-light fst-italic"></div>
+                    <!--<p class="Price-products mb-3 mt-4 "> </p>
+                    <a href="./shopping.html">View All Products</a> -->
+                  </div>
+                </li>
+        
+                <li class="btn btn1-home fst-italic ms-4" id="user"></li>
+                <button class="btn btn1-home fst-italic" type="submit"><a href="#" id="logout">Log Out</a></button>
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section>
+
+    <h3 class="text-darck fw-bold fst-italic h3-titel-sopping" > Purchased products</h3>
+    <div class=" bg-dark mt-3 div-titel"></div>
+
+    <div class="mt-5">
+      <div class="container-fluid">
+        <div class="row justify-content-evenly products_sopping">
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./JS/bootstrap.bundle.min.js"></script>
+
+  <script src="./JS/shppping.js"></script>
+  <script src="./JS/user.js"></script>
+  
+</body>
+
+</html>
